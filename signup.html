@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BYC9DWSWWS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BYC9DWSWWS');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="signup-page">
+
+    <div class="form-container">
+        <h2>Sign Up</h2>
+        <p class="subtitle">Create your account to get started</p>
+
+        <form action="#" method="POST">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <button type="submit">Sign Up</button>
+
+            <p class="or-text">or sign up with</p>
+            <div class="social-buttons">
+                <button class="social-btn google">Google</button>
+                <button class="social-btn facebook">Facebook</button>
+                <button class="social-btn apple">Apple</button>
+            </div>
+        </form>
+
+        <p class="existing-account">Already have an account? <a href="login.html">Log in</a></p>
+    </div>
+
+</body>
+</html>
